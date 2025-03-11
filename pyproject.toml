@@ -1,0 +1,57 @@
+[project]
+name = "comfyui-remotevae"
+version = "1.0.0"
+description = "ComfyUI Node for Remote VAE Decoding."
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = []
+urls.Changelog = "https://github.com/Visionatrix/ComfyUI-RemoteVAE/blob/main/CHANGELOG.md"
+urls.Repository = "https://github.com/Visionatrix/ComfyUI-RemoteVAE"
+urls.Source = "https://github.com/Visionatrix/ComfyUI-RemoteVAE"
+
+[tool.black]
+line-length = 120
+preview = true
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+lint.select = [
+  "A",
+  "B",
+  "C",
+  "E",
+  "F",
+  "G",
+  "I",
+  "PIE",
+  "Q",
+  "RET",
+  "RUF",
+  "S",
+  "SIM",
+  "UP",
+  "W",
+]
+lint.extend-ignore = [
+  "I001",
+  "RUF100",
+  "S311",
+  "S603",
+]
+lint.mccabe.max-complexity = 20
+
+[tool.isort]
+profile = "black"
+
+[tool.comfy]
+PublisherId = "visionatrix"
+DisplayName = "ComfyUI-RemoteVAE"
+Icon = "https://raw.githubusercontent.com/Visionatrix/VixFlowsDocs/main/screenshots/logo_org_800x800.png"
