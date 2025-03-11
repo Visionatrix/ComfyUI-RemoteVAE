@@ -14,4 +14,7 @@ This node does not rely on the `diffusers` library and has no external dependenc
 
 For more information on remote VAE decoding, you can refer to HuggingFace's [blog post](https://huggingface.co/blog/remote_vae)
 
-![Usage](https://raw.githubusercontent.com/Visionatrix/ComfyUI-RemoteVAE/main/screenshots/usage.jpg)
+Using this node is quite simple, just replace the built-in `VAE Decode` with `VAE Decode (Remote)` and that's it.
+
+![Usage-Flux](https://raw.githubusercontent.com/Visionatrix/ComfyUI-RemoteVAE/main/screenshots/flux.png)
+![Usage-HunyuanVideo](https://raw.githubusercontent.com/Visionatrix/ComfyUI-RemoteVAE/main/screenshots/hunyuan_video.png)
