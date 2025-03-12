@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-remotevae"
 version = "1.0.0"
-description = "ComfyUI Node for Remote VAE Decoding."
+description = "ComfyUI Nodes for Remote VAE Decoding."
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
 classifiers = [
